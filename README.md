@@ -1,7 +1,9 @@
 # sha1_pynq
 
 To build all project files you should run at command line
+
 `vivado -source build_all.tcl ` 
+
 from the root directory.
 
 or from vivado application tcl tab
