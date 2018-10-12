@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="sha1_control.c" path="/home/mehmet/Repo/sha-1_pynq/sha1_control.c"/>
+    <originFiles name="sha1_control.h" path="/home/mehmet/Repo/sha-1_pynq/sha1_control.h"/>
+  </source>
+  <testbench>
+    <originFiles name="tb_sha1_control.c" path="/home/mehmet/Repo/sha-1_pynq/tb_sha1_control.c"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

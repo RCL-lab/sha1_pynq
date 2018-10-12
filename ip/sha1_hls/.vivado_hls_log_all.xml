@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog>
+        <logs message="WARNING: [IMPL 213-201] IO timing constraints are not applied without adding IO buffers.&#xA;" projectName="sha-1_hls" solutionName="solution1" date="2018-10-05T13:02:58.976-0400" type="Warning"/>
+        <logs message="WARNING: [IMPL 213-201] IO timing constraints are not applied without adding IO buffers." projectName="sha-1_hls" solutionName="solution1" date="2018-10-05T13:02:48.257-0400" type="Warning"/>
+      </packageLog>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
