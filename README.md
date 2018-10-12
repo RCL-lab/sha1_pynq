@@ -11,7 +11,7 @@ you can move to root folder and run
 
 `source build_all.tcl`
 
-This scripts are tested on Vivado 2017.4
+Scripts tested on Vivado 2017.4
 
 
 
