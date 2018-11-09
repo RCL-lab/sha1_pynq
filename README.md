@@ -13,7 +13,8 @@ you can move to root folder and run
 
 Scripts tested on Vivado 2017.4
 
-
+Link that explains message padding :
+https://www.ipa.go.jp/security/rfc/RFC3174EN.html#4
 
 
 
