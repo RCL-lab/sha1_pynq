@@ -16,18 +16,18 @@ Scripts tested on Vivado 2017.4
 Link that explains message padding :
 https://www.ipa.go.jp/security/rfc/RFC3174EN.html#4
 
-Before running the notebook: 
-You will need to install the bitstring module which requires an internet connection.
-Login to the pynq and type the following:
-$ pip install bitstring
-or
-$ pip3 install bitstring
+Before running the notebook:  
+You will need to install the bitstring module which requires an internet connection.  
+Login to the pynq and type the following:  
+$ pip install bitstring  
+or  
+$ pip3 install bitstring  
 
-Running the notebook:
-After logging into the Pynq, navigate to the jupyter_notebooks directory
-$ cd jupyter_notebooks
-Next, clone this repository
-$ git clone https://github.com/RCL-lab/sha1_pynq.git
-Open a web browser and type in ip address of the board and login
+Running the notebook:  
+After logging into the Pynq, navigate to the jupyter_notebooks directory  
+$ cd jupyter_notebooks  
+Next, clone this repository  
+$ git clone https://github.com/RCL-lab/sha1_pynq.git  
+Open a web browser and type in ip address of the board and login  
 All of the folders in the jupyter_notebooks directory will be there
 
