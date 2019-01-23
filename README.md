@@ -31,3 +31,6 @@ $ git clone https://github.com/RCL-lab/sha1_pynq.git
 Open a web browser and type in ip address of the board and login  
 All of the folders in the jupyter_notebooks directory will be there
 
+Obtaining the IP Adress:
+https://pynq.readthedocs.io/en/latest/getting_started.html#configuring-pynq  
+Scroll down to section 'Opening a USB Serial Terminal'
