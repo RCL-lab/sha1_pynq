@@ -37,6 +37,9 @@ Scroll down to section 'Opening a USB Serial Terminal'
 
 ##### Useful Links:
 [Pynq-Getting Started Web Page](https://pynq.readthedocs.io/en/latest/getting_started.html)
+
 [Pynq-Z1 Setup Guide](https://pynq.readthedocs.io/en/latest/getting_started/pynq_z1_setup.html)
+
 [Setup Vivado](https://pynq.readthedocs.io/en/latest/overlay_design_methodology/board_settings.html)
+
 [Overlay Tutorial](https://pynq.readthedocs.io/en/latest/overlay_design_methodology/overlay_tutorial.html)
