@@ -4,10 +4,10 @@ To build all project files you can run at command line
 
 `vivado -source build_all.tcl ` 
 
-from the root directory.
+from the project home directory.
 
 or from vivado application tcl tab
-you can move to root folder and run
+you can move to project folder and run
 
 `source build_all.tcl`
 
