@@ -22,7 +22,9 @@ After this step is done you can see generated sha1_overlay.bit and sha1_overlay.
 Make sure that you are connected to the board.
 
 ### Importing hardware design to the Board.
-Overlays usally consist of `.bit file` and assosiated `.tcl file`. You can find pre_build overlay designs for PYNQ-Z1 on `master` branch and for PYNQ-Z2 on `Z2` branch under the `overlays` folder.
+Overlays usally consist of `.bit file` and assosiated `.tcl file`. 
+
+You can find pre_build overlay designs for PYNQ-Z1 on `master` branch and for PYNQ-Z2 on `Z2` branch under the `overlays` folder.
 
 `sha1_overlay.bit` and `sha1_overlay.tcl` files under `overlays` folder must be copied to the Pynq board under a same folder.
 
