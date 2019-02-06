@@ -43,7 +43,7 @@ If it is in different location on your board please enter the right path to the 
 
 `overlay = Overlay('<path_to_sha1_overlay.bit_on_the_board>')`
 
-After this step you can run the code and see 'Test Passed' massages with no errors.
+After this step you can run the code and see `'Test Passed'` massages with no errors.
 
 
 
