@@ -45,30 +45,9 @@ If it is in different location on your board please enter the right path to the 
 
 After this step you can run the code and see `'Test Passed'` massages with no errors.
 
-
-
-
+*Side Note*: This notebook requires the bitstring module. The steps for installing the module can be found [here](https://pypi.org/project/bitstring/).
 
 Scripts tested on Vivado 2017.4
-
-Before running the notebook:  
-You will need to install the bitstring module which requires an internet connection.  
-Login to the pynq and type the following:  
-$ pip install bitstring  
-or  
-$ pip3 install bitstring  
-
-Running the notebook:  
-After logging into the Pynq, navigate to the jupyter_notebooks directory  
-$ cd jupyter_notebooks  
-Next, clone this repository  
-$ git clone https://github.com/RCL-lab/sha1_pynq.git  
-Open a web browser and type in ip address of the board and login  
-All of the folders in the jupyter_notebooks directory will be there
-
-Obtaining the IP Adress:
-https://pynq.readthedocs.io/en/latest/getting_started.html#configuring-pynq  
-Scroll down to section 'Opening a USB Serial Terminal'
 
 ##### Useful Links:
 
