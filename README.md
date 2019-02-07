@@ -41,7 +41,7 @@ By default the code assumes it is under `/home/xilinx/sha1_pynq/overlays/` folde
 
 `overlay = Overlay('/home/xilinx/sha1_pynq/overlays/sha1_overlay.bit')`
 
-If it is in different location on your board please enter the right path to the `sha1_overlay.bit` file on your board
+If it is in different location on your board please enter the right path of the `sha1_overlay.bit` file on your board
 
 `overlay = Overlay('<path_to_sha1_overlay.bit_on_the_board>')`
 
