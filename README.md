@@ -1,9 +1,11 @@
 # sha1_pynq
 This project creates sha1 overlay hardware design for Pynq-Z1 and Pynq-Z2 boards and provide python code to interface and control the hardware design.
 
-If you want to get and use pre_build overlay hardware designs you can skip to section 2.
+
 
 ## 1- Building the project
+
+If you want to get and use pre_build overlay hardware designs you can skip to section 2.
 
 ### Building overlay hardware desing
 First hardware overlay design must be build to be used in software.
