@@ -1,9 +1,11 @@
 # sha1_pynq
 This project creates sha1 overlay hardware design for Pynq-Z1 and Pynq-Z2 boards and provide python code to interface and control the hardware design.
 
-If you want to get and use pre_build overlay hardware designs you can skip to section 2.
+
 
 ## 1- Building the project
+
+If you want to get and use pre-build overlay hardware designs you can skip to section 2.
 
 ### Building overlay hardware desing
 First hardware overlay design must be build to be used in software.
@@ -39,7 +41,7 @@ By default the code assumes it is under `/home/xilinx/sha1_pynq/overlays/` folde
 
 `overlay = Overlay('/home/xilinx/sha1_pynq/overlays/sha1_overlay.bit')`
 
-If it is in different location on your board please enter the right path to the `sha1_overlay.bit` file on your board
+If it is in different location on your board please enter the right path of the `sha1_overlay.bit` file on your board
 
 `overlay = Overlay('<path_to_sha1_overlay.bit_on_the_board>')`
 
