@@ -1,13 +1,13 @@
 #include "ap_cint.h"
 
-void garble_if (   	uint80 	i_ov,
+void garble_if (   	uint1 	i_ov,
 					uint1 	i_ready,
 					uint80 	i_Gc,
 					uint80 	i_toSend01,
 					uint80 	i_toSend10,
 					uint80  i_toSend11,
 
-					uint80 	*o_ov,
+					uint1 	*o_ov,
 					uint1 	*o_ready,
 					uint80 	*o_Gc,
 					uint80 	*o_toSend01,

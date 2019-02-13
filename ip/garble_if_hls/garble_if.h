@@ -6,7 +6,7 @@ void garble_if(   	uint1 	i_ov,
 					uint80 	i_toSend10,
 					uint80  i_toSend11,
 
-					uint80 	*o_ov,
+					uint1 	*o_ov,
 					uint1 	*o_ready,
 					uint80 	*o_Gc,
 					uint80 	*o_toSend01,
