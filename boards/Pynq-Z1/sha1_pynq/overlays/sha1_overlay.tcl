@@ -17,18 +17,6 @@ proc get_script_folder {} {
 variable script_folder
 set script_folder [_tcl::get_script_folder]
 
-################################################################
-# Check if script is running in correct Vivado version.
-################################################################
-set scripts_vivado_version 2017.4
-set current_vivado_version [version -short]
-
-if { [string first $scripts_vivado_version $current_vivado_version] == -1 } {
-   puts ""
-   catch {common::send_msg_id "BD_TCL-109" "ERROR" "This script was generated using Vivado <$scripts_vivado_version> and is being run in <$current_vivado_version> of Vivado. Please run the script in Vivado <$scripts_vivado_version> then open the design in Vivado <$current_vivado_version>. Upgrade the design by running \"Tools => Report => Report IP Status...\", then run write_bd_tcl to create an updated script."}
-
-   return 1
-}
 
 ################################################################
 # START
@@ -55,12 +43,12 @@ if { $list_projs eq "" } {
 }
 
 #Add IP Repo
-set_property "ip_repo_paths" [file normalize [pwd]/../ip] [get_filesets sources_1]
+set_property "ip_repo_paths" [file normalize [pwd]/../../../ip] [get_filesets sources_1]
 update_ip_catalog
 
 #add module files
 
-add_files {../modules/sha1/sha1.v ../modules/sha1/sha1_core.v ../modules/sha1/sha1_w_mem.v}
+add_files {../../../modules/sha1/sha1.v ../../../modules/sha1/sha1_core.v ../../../modules/sha1/sha1_w_mem.v}
 update_compile_order -fileset sources_1
 
 # CHANGE DESIGN NAME HERE
@@ -136,7 +124,7 @@ set bCheckIPsPassed 1
 ##################################################################
 # CHECK IPs
 ##################################################################
-set bCheckIPs 1
+set bCheckIPs 0
 if { $bCheckIPs == 1 } {
    set list_check_ips "\ 
 xilinx.com:ip:processing_system7:5.5\
