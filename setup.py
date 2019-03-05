@@ -51,7 +51,7 @@ def check_env():
 
 # copy overlays to python package
 def copy_overlays():
-    src_ol_dir = os.path.join(repo_board_folder, 'bitstream')
+    src_ol_dir = os.path.join(repo_board_folder, 'overlays')
     dst_ol_dir = os.path.join('sha1_pynq', 'bitstream')
     copy_tree(src_ol_dir, dst_ol_dir)
     hw_data_files.extend(
