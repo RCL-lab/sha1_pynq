@@ -70,6 +70,7 @@ def copy_notebooks():
 check_env()
 copy_overlays()
 copy_notebooks()
+pip3 install bitstring
 
 setup(
     name="sha1_pynq",
