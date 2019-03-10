@@ -74,8 +74,8 @@ copy_notebooks()
 setup(
     name="sha1_pynq",
     version='1.0',
-    install_requires=['pynq>=2.3'],
-    url='https://github.com/cathalmccabe/sha1_pynq.git',
+    install_requires=['pynq>=2.3','bitstring'],
+    url='https://github.com/RCL-lab/sha1_pynq.git',
     license='BSD 3-Clause License',
     author="",
     author_email="",
