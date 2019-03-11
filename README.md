@@ -4,7 +4,7 @@ This project creates sha1 overlay hardware design for Pynq-Z1 and Pynq-Z2 boards
 
 ## Quick Start
 
-To test and use the prebuilt overlay design please run this command from the board.
+To test and use the prebuilt overlay design please run this command from a terminal that is opened on the board.
 
 `sudo pip3 install --upgrade git+https://github.com/RCL-lab/sha1_pynq.git`
 
