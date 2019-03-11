@@ -22,13 +22,14 @@ all designs generated and tested with Vivado 2017.4.
 
 Make sure that you are connected to the board.
 
-### Importing hardware design to the Board.
+### Installing hardware design to the Board.
 
 To test and use the prebuilt overlay design please run this command from the board.
 
 `sudo pip3 install --upgrade git+https://github.com/RCL-lab/sha1_pynq.git`
 
 This is tested on [PYNQ-Z1 v2.4 PYNQ image](http://bit.ly/2V9MB9v) and [PYNQ-Z2 v2.4 PYNQ image](http://bit.ly/2E3BxUF)
+
 ### Running the test program
 
 Access to the jupyter notebook on the board by entering IP address of the board to the browser on your host machine.
