@@ -17,7 +17,7 @@ Locate to the `sha1.ipynb` file under `sha1_pynq/` folder in jupyter notebooks a
 
 ## Building the Project  (optional)
 
-To regenerate overlay hardware design for Pynq-Z1 board run this command on your terminal from the project folder.
+To regenerate overlay hardware design for Pynq-Z1 board run this command on your terminal from the project folder on host machine.
 
 `cd boards/Pynq-Z1/ && make`
 
