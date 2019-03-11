@@ -13,7 +13,7 @@ This is tested on [PYNQ-Z1 v2.4 PYNQ image](http://bit.ly/2V9MB9v) and [PYNQ-Z2 
 ## Running the Software on PYNQ
 
 Access to the jupyter notebook on the board by entering IP address of the board to the browser on your host machine.
-Locate to the `sha1.ipynb` file under `sha1_pynq/` folder in Jupyter notebooks and run the program. You should see 'Test Passed' massage if everthing is working as expected.
+Locate to the `sha1.ipynb` file under `sha1_pynq/` folder in jupyter notebooks and run the program. You should see 'Test Passed' massage if everthing is working as expected.
 
 ## Building the Project  (optional)
 
