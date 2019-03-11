@@ -20,7 +20,6 @@ all designs generated and tested with Vivado 2017.4.
 
 ## 2- Running the software on PYNQ
 
-Make sure that you are connected to the board.
 
 ### Installing hardware design to the Board.
 
